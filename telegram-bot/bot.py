@@ -101,7 +101,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 if __name__ == "__main__":
-    TOKEN = os.getenv("BOT_TOKEN")
+    TOKEN = os.getenv("7751343842:AAEDnRNPTgju_7zlpbELtGSQOLNOLqAag7U")
     app = ApplicationBuilder().token(TOKEN).build()
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
